@@ -18,12 +18,26 @@ body {
     margin: 0 auto;
     clear: both;
   }
-
+  
   h1,
   h2,
   h3,
   p {
     margin-bottom: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
   
   p:last-child {
@@ -76,6 +90,7 @@ body {
     text-decoration: none;
     background: #4aaaa5;
   }
+
   
   nav {
     float: right;
