@@ -58,7 +58,10 @@ html {
     overflow: auto;
     background: #ffffff;
     border-bottom: 1px solid #ebebeb;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    background: #fff;
+    border-bottom: 1px rgba(0, 0, 0, 0.07) solid;
+    z-index: 99;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   }
 
   #logo {
