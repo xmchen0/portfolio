@@ -1,51 +1,237 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Kathy Chen</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Kathy Chen</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Link to Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- Link to Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Link to Boostrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="page-top">
 
+  <!-- Top Navigation -->
   <header id="masthead">
     <div class="container">
-      <a href="index.html" id="logo">Kathy Chen</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+      <span class="navbar-brand my-n2 mx-n3"></span><a href="#about" id="logo"><img src="assets/images/logo.png"
+          width="75" height="75" alt="kathy-chen-logo"></a>
+      <nav class="nav navbar-expand-lg navbar-light sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
+  <!--/. Top Navigation -->
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About</h1>
-
-      <img src="images/dubai2017.png" class="auth-image" alt="Kathy Chen">
-
-      <p><strong>Facts that make me, me:</strong></p>
-      <p>🏃🏻‍♀️ Ran 2 full marathons for charity <em>(aiming for my 3rd in October 2019)</em></p>
-      <p>📱 Designed, developed and deployed an iOS application for children living with autism on the App Store. Checkout my app on the App Store <a id="app-link" href="https://itunes.apple.com/us/app/colour-mind/id1335551614?mt=8" target="_blank">*click here*</a><em>(aiming to release new version in April 2019)</em></p>
-      <p>🎓 Enrolled in coding bootcamp course at UofT <em>(aiming to graduate in July 2019)</em></p>
-      <p>🧾 Business graduate with an Accounting/Finance background</p>
-      <p>🥾 Thrill and adventure seeker</p>
-      <p>❓ Staying curious, delicately honest, and constantly looking for ways to improve</p>
-      <p>🗺️ Travelled to 20 countries in last 3 years</p>
-      <p>🍗 Deep love for deep fried chicken</p>
-      
-    </section>
-
+  <!-- Hero Image -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Hi! I'm Kathy Chen</h1>
+      <p>And I'm a Web Designer + Developer</p>
+      <a class="btn btn-dark btn-lg" style="background: #46d4f0; border: 0 none"
+          href="#about" role="button">Learn More</a>
+    </div>
   </div>
+  <!-- Hero Image -->
 
+  <!-- About Section -->
+  <div id="about" class="container">
+    <section class="main-section">
+      <!-- Facts About Me -->
+      <div class="container">
+        <h1>Facts that make me, me</h1>
+        <hr>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="assets/images/kathy-in-rome.jpeg" class="auth-image img-responsive" alt="kathy-in-rome">
+          </div>
+          <div class="col-sm-8">
+            <p>‣ Aussie 🇦🇺 exploring possibilities in The 6ix</p>
+            <p>‣ Business graduate with an Accounting/Finance background</p>
+            <p>‣ Big Seinfeld and Larry David fan</p>
+            <p>‣ Thrill and adventure seeker</p>
+            <p>‣ Travelled to 20 countries in last 3 years</p>
+            <p>‣ Deep love for deep fried chicken</p>
+            <p>‣ Staying curious, delicately honest, and constantly looking for ways to improve</p>
+          </div>
+        </div>
+      </div>
+      <!--/. Facts About Me -->
+
+      <!-- Goals -->
+      <div class="container">
+        <h3>2019 Goals & Challenges</h3>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">🥅 Enrolled in coding bootcamp course at U of T. Aiming
+              to graduate in July 2019. <a href="#portfolio"><br>Learn More About My Work </a></div>
+          </div>
+          <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">🥅 I will be
+              participating in Scotiabank Toronto Waterfront Marathon on 20 October 2019. Please help me to cross
+              the
+              finish line by
+              donating
+              to the charity, Autism Ontario. <a
+                href="https://secure.e2rm.com/registrant/FundraisingPage.aspx?registrationID=4414552&langPref=en-CA"
+                target="_blank"><br> My Fundraising Page </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">🥅 Designed, developed and deployed an iOS application for
+              children living with autism on the App Store. Aiming to release new version on 30 April 2019.<a
+                id="app-link" href="https://itunes.apple.com/us/app/colour-mind/id1335551614?mt=8" target="_blank"><br>
+                Checkout
+                Colour Mind on the App Store </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/. Goals -->
+      <!-- Download CV -->
+      <div class="text-center">
+        <a class="btn btn-dark btn-lg" style="background: #46d4f0; border: 0 none"
+          href="https://drive.google.com/open?id=17Vk1D-snowXq3_LUDKTACaKYjYoAnr6T" role="button">Download résumé</a>
+      </div>
+      <!--/. Download CV -->
+    </section>
+  </div>
+  <!--/. About Section -->
+
+  <!-- Portfolio Section -->
+  <div id="portfolio" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+      <hr>
+      <div class="work">
+        <a href="https://xmkchen.github.io/unit-4-game/" target="_blank"><img
+            src="https://media.giphy.com/media/9P5bo8JsNmP519NeJk/giphy.gif" alt="crystal-collectors"></a>
+        <h3>Crystal Collectors</h3>
+      </div>
+      <div class="work">
+        <a href="https://xmkchen.github.io/TriviaGame/" target="_blank"><img
+            src="https://media.giphy.com/media/9Ji0xt6JqOCkuentdS/giphy.gif" alt="TriviaGame"></a>
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <a href="https://xmkchen.github.io/GifTastic/" target="_blank"><img
+            src="https://media.giphy.com/media/2vjlxHe4uyX9v6ExnA/giphy.gif" alt="GifTastic"></a>
+        <h3>GifTastic</h3>
+      </div>
+      <div class="work">
+        <a href="https://xmkchen.github.io/TrainScheduler/" target="_blank"><img
+            src="https://media.giphy.com/media/mJ8P8pgXriKCPOVuou/giphy.gif" alt="TrainScheduler"></a>
+        <h3>Train Scheduler</h3>
+      </div>
+      <div class="work">
+        <a href="https://amandat85.github.io/eat-wise/" target="_blank"><img
+            src="https://i.ibb.co/7KHyJQR/Screen-Shot-2019-03-19-at-11-15-52-pm.png"
+            alt="Screen-Shot-2019-03-19-at-11-15-52-pm" alt="Project-1-Eat-Wise"></a>
+        <h3>Project 1: Eat Wise</h3>
+      </div>
+    </section>
+  </div>
+  <!--/. Portfolio Section -->
+
+  <!-- Contact Section -->
+  <div id="contact" class="container">
+    <section class="main-section">
+      <div class="container">
+        <h1>Get in Touch</h1>
+        <hr>
+        <div class="row">
+          <!-- Contact Form -->
+          <div class="col-sm-6">
+            <h3>Leave a Message</h3>
+            <form id="contact-form">
+              <ul>
+                <li>
+                  <label for="name">Name *</label>
+                  <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
+                </li>
+                <li>
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" placeholder="jane-doe@gmail.com" required="required">
+                </li>
+                <li>
+                  <label for="message">Message *</label>
+                  <textarea id="message" name="message" required="required"></textarea>
+                </li>
+                <button type="submit" class="btn btn-dark" style="background: #46d4f0; border: 0 none">Submit</button>
+              </ul>
+            </form>
+          </div>
+          <!--/. Contact Form -->
+
+          <!-- Contact Details -->
+          <div class="col-sm-4">
+            <h3>My Contact Details</h3>
+            <div>
+              <i class="fa fa-envelope"> kathychen.social@gmail.com</i>
+              <i class="fa fa-phone"> +1 (647) 807-5776</i>
+            </div>
+            <h3>Follow Me</h3>
+            <div class="social">
+              <a href="https://github.com/xmkchen"><i class="fa fa-github"></i> Github</a>
+              <a href="https://linkedin.com/in/kathychen89"><i class="fa fa-linkedin"></i> Linkedin</a>
+            </div>
+          </div>
+          <!--/. Contact Details -->
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--/. Contact Section -->
+
+  <!-- Footer -->
   <footer>
     <div class="container">
-      Xiao Mei (Kathy) Chen &copy; 
+      <p>Copyright &copy; 2019 Xiao Mei (Kathy) Chen</p>
     </div>
   </footer>
+  <!-- Footer -->
+
+  <!-- Link to Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
