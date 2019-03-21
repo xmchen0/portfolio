@@ -4,6 +4,9 @@ html {
     font-size: 16px;
     height: 100%;
     margin: 0;
+    background: #263742;
+    color: #383c3f;
+    scroll-behavior: smooth;
   }
   
   * {
@@ -23,12 +26,18 @@ html {
     margin-bottom: 0;
   }
   
-  h1,
-  h2,
   h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    color: #46d4f0;
+    font-family: 'Gochi Hand', cursive;
     padding: 20px;
+    color: #3c83ae;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Lobster Two', cursive;
+    color: #c43f3f;
+    padding: 20px;
+    text-align: center; 
   }
   
   h1 {
@@ -36,6 +45,7 @@ html {
     font-size: 30px;
     line-height: 49px;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
   }
   
   /* header */
@@ -69,6 +79,8 @@ html {
     margin-top: 25px;
     margin-right: 25px;
     color: #ffffff;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   }
   
   nav a {
@@ -123,7 +135,7 @@ html {
   color: white;
 }
 
-  /* footer */
+/* footer */
   
   footer {
     padding: 40px 0;
@@ -135,8 +147,8 @@ html {
     color: #ffffff;
     color: #cccccc;
     text-align: center;
-    background: #666666;
-    border-top: 8px solid #46d4f0;
+    background: #517a96;
+    border-top: 8px solid #263742;
     height: 100px;
   }
   
@@ -161,21 +173,19 @@ html {
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+    border-radius: 25px;
   }
-  
+
   /* portfolio page */
   
   .work {
     position: relative;
     float: left;
-    width: 274px;
-    height: 150px;
-    margin: 20px 0 25px;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
     overflow: auto;
-  }
-  
-  .work:nth-child(even) {
-    margin-right: 40px;
   }
   
   .work img {
@@ -184,16 +194,17 @@ html {
     opacity: 0.8;
   }
   
-  .work h3 {
+  .work h4 {
     position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
+    bottom: 15px;
+    width: 268px;
+    padding: 20px;
     margin-bottom: 0;
     font-weight: 300;
-    line-height: 5px;
+    line-height: 19px;
     color: #ffffff;
     text-align: center;
+    font-size: 18px;
     background: #46d4f0;
     border-bottom: 0;
   }
@@ -204,12 +215,15 @@ html {
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
+    border: 2px solid #dddddd;
   }
 
   /* contact page */
 
   .social {
-    position: flex;
+    text-decoration: none;
+    color: #383c3f;
+    text-align: center;
   }
 
   #contact-form ul {
