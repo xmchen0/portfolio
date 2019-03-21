@@ -1,8 +1,12 @@
-$(window).scroll(function () {
-    var y = $(window).scrollTop();
-    if (y > 0) {
-        $("#masthead").addClass('--not-top');
+// scroll functions
+$(window).scroll(function(e) {
+
+    // add/remove class to navbar when scrolling to hide/show
+    var scroll = $(window).scrollTop();
+    if (scroll >= 150) {
+        $('.masthead').addClass("navbar-hide");
     } else {
-        $("#masthead").removeClass('--not-top');
+        $('.masthead').removeClass("navbar-hide");
     }
+
 });
