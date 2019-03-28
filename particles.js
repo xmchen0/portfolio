@@ -20,10 +20,10 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 1,
         density: {
           enable: true,
-          value_area: 800
+          value_area: 1
         }
       },
       color: {
@@ -36,7 +36,7 @@ var pJS = function(tag_id, params){
           color: '#ff0000'
         },
         polygon: {
-          nb_sides: 5
+          nb_sides: 10
         },
         image: {
           src: '',
@@ -49,31 +49,31 @@ var pJS = function(tag_id, params){
         random: false,
         anim: {
           enable: false,
-          speed: 2,
+          speed: -1000,
           opacity_min: 0,
           sync: false
         }
       },
       size: {
-        value: 20,
+        value: 100,
         random: false,
         anim: {
           enable: false,
-          speed: 20,
+          speed: -1000,
           size_min: 0,
           sync: false
         }
       },
       line_linked: {
         enable: true,
-        distance: 100,
+        distance: 1000,
         color: '#fff',
-        opacity: 1,
-        width: 1
+        opacity: 100,
+        width: 100
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: -1000,
         direction: 'none',
         random: false,
         straight: false,
@@ -81,8 +81,8 @@ var pJS = function(tag_id, params){
         bounce: false,
         attract: {
           enable: false,
-          rotateX: 3000,
-          rotateY: 3000
+          rotateX: 1000,
+          rotateY: 1000
         }
       },
       array: []
@@ -108,22 +108,22 @@ var pJS = function(tag_id, params){
           }
         },
         bubble:{
-          distance: 200,
-          size: 80,
-          duration: 0.4
+          distance: 1000,
+          size: 10,
+          duration: 0.1
         },
         repulse:{
-          distance: 200,
-          duration: 0.4
+          distance: 1000,
+          duration: 0.1
         },
         push:{
-          particles_nb: 4
+          particles_nb: 1
         },
         remove:{
           particles_nb: 2
         }
       },
-      mouse:{}
+      //mouse:{}
     },
     retina_detect: false,
     fn: {
