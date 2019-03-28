@@ -1,7 +1,7 @@
 # Responsive-Portfolio
 
 ## Preview
-<a href="http://g.recordit.co/UCRFk0vrKu.gif"><img src="https://media.giphy.com/media/KYjVitH25qEtCnFFW2/giphy.gif" border="0"></a>
+<a href="http://g.recordit.co/KBd03qJFRZ.gif"><img src="https://media.giphy.com/media/zrf2v1gjTUdCnFZP4P/giphy.gif" border="0"></a>
 
 ## Link
 https://xmkchen.github.io/Responsive-Portfolio/
@@ -21,6 +21,7 @@ This is my updated portfolio page.
 ### Future improvements:
 * aethestics: fix top navbar, make it disappear when scrolling down
 * javascript animation: look into particles.js to make the stars move on the hero image
+* portfolio: added <a> hyperlink in text banner 
 * database: contact form to be stored in Firebase
 
 ## Acknowledgement
