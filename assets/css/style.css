@@ -292,11 +292,12 @@ html {
   
   .work h4 {
     position: absolute;
-    bottom: 15px;
-    width: 268px;
+    bottom: 0px;
+    left: 0px;
+    width: 300px;
     padding: 20px;
     margin-bottom: 0;
-    font-weight: 300;
+    font-weight: 350;
     line-height: 19px;
     color: #ffffff;
     text-align: center;
