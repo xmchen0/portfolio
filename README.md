@@ -20,13 +20,13 @@
 
 ## <u>Work</u>
 
-### Word Guess Game: 
+### Word Guess Game
     📌 Add this project to site
     
-### Psychic Game: 
+### Psychic Game
     📌 Add this project to site
 
-### Crystals Collector: 
+### Crystals Collector
     📌 Make it responsive
     📌 Review code (as per Dimitry's recommendation)
 
@@ -71,6 +71,6 @@
     
  
  
-.**********************************************.
+-******************************************************************************************-
 ### <em>Placeholder for future projects</em> ###
-.**********************************************.
+-******************************************************************************************-
