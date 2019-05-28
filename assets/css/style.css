@@ -135,14 +135,8 @@ h1 {
 }
 
 .grid {
-  padding: 1rem 3rem;
+  padding: 2.5rem;
   overflow: hidden;
-}
-
-.grid-item {
-  display: inline-block;
-  width: 100%;
-  margin: 2.5rem;
 }
 
 /*-------------------------------------------------
@@ -218,9 +212,9 @@ p.social.social--big i {
 
 .content-column {
   padding-top: 2.5rem;
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-  padding-bottom: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 @media (min-width: 768px) {
@@ -281,7 +275,7 @@ p.social.social--big i {
 }
 
 .box-masonry .box-masonry-text {
-  padding: 1rem 3rem 1rem;
+  padding: 1rem 2rem 1rem;
   color: #555;
   font-size: 0.85rem;
   font-family: 'Varela Round', sans-serif;
