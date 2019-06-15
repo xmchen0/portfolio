@@ -1,15 +1,13 @@
 body, html {
-  background: #e0e0e0;
+  background: #f7f7f7;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5em;
   position: relative;
   scroll-behavior: smooth;
-}
-
-* {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /*-------------------------------------------------
@@ -53,6 +51,8 @@ h1 {
 #sidebar {
   padding-top: 0.125rem;
   background: #ffffff;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .sidebar-content {
@@ -100,6 +100,7 @@ h1 {
   list-style-type: none;
   padding-left: 0.25rem;
   margin-bottom: 2.5rem;
+  width: 100%;
 }
 
 .sidebar-item {
@@ -215,6 +216,7 @@ p.social.social--big i {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-bottom: 1.25rem;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -334,7 +336,6 @@ p.social.social--big i {
 .box-masonry .box-masonry-image:hover {
   text-decoration: none;
 }
-
 
 /*-------------------------------------------------
 # badges
